@@ -57,7 +57,7 @@ class IncrementerComponent extends ReactHTMLElement {
   }
 }
 
-customElements.define('incrementer', ReactTestComponent);
+customElements.define('incrementer', IncrementerComponent);
 ```
 
 The key pieces of code are `... extends ReactHTMLElement` and `this.render`,
